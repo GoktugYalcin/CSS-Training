@@ -1,2 +1,2 @@
 # CSS-Training
-Training CSS with ideas got from 'cssbattle.dev'
+Training CSS with ideas got from `cssbattle.dev`
