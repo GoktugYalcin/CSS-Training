@@ -1,2 +1,2 @@
 # CSS-Training
-Training with css
+Training CSS with ideas got from 'cssbattle.dev'
