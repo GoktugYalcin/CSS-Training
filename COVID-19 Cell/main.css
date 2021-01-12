@@ -1,0 +1,81 @@
+.container{
+    background-color: #1A4341;
+    width: 1882px;
+    height: 941px;
+    margin: -10px;
+    position: relative;
+}
+
+.cell{
+    position: absolute;
+    background-color: #F3AC3C;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 790px;
+    top: 320px;
+    z-index: 10000;
+}
+
+.bump{
+    background-color: #998235;
+    position: absolute;
+    border-radius: 50%;
+    animation: bumpAni 750ms infinite;
+    animation-direction:alternate;
+}
+
+.bump1{
+    width: 90px;
+    height: 90px;
+    top: 60px;
+    left: 50px;
+    animation-delay: 250ms;
+}
+
+.bump2{
+    width: 35px;
+    height: 35px;
+    top: 50px;
+    left: 200px;
+    animation-delay: 650ms;
+}
+
+.bump3{
+    width: 65px;
+    height: 65px;
+    top: 180px;
+    left: 130px;
+    animation-delay: 100ms;
+}
+
+.pipe{
+    width: 480px;
+    height: 25px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: #F3AC3C;
+}
+
+.pipe1{
+    top: 430px;
+    left: 710px;
+    transform: rotate(90deg);
+}
+
+.pipe2{
+    top: 480px;
+    left: 730px;
+    transform: rotate(35deg);
+}
+
+.pipe3{
+    top: 450px;
+    left: 710px;
+    transform: rotate(325deg);
+}
+
+@keyframes bumpAni {
+    from {transform: scale(1);}
+    to {transform: scale(0.89);}
+}
